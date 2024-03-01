@@ -51,7 +51,15 @@ const Home = () => {
           headerShadowVisible: false,
           headerLeft: () => <ScreenHeaderMenuButton dimension="60%" />,
           headerTitle: () => (
-            <Text style={{ color: "#111111", fontSize: 20, textAlign: "center", minWidth: 100 }}>
+            <Text
+              style={{
+                color: "#111111",
+                fontFamily: "DMRegular",
+                fontSize: 20,
+                textAlign: "center",
+                minWidth: 100,
+              }}
+            >
               Home
             </Text>
           ),
